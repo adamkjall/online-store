@@ -1,0 +1,46 @@
+.homepage {
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem 5rem;
+  border: 1px solid green;
+}
+
+.directory-menu {
+  width: 100%;
+  border: 1px solid red;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-item {
+  border: 1px solid brown;
+  min-width: 30%;
+  height: 15rem;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1.5px solid black;
+  margin: 0 .5rem 1rem;
+  
+  .content {
+    padding: 0 1.5rem;
+    border: 1.5px solid black;
+  
+    .title {
+      margin-bottom: 0;
+      font-size: 1.4rem;
+      color: #4a4a4a;
+    }
+
+    .subtitle {
+      font-weight: lighter;
+      margin-top: .5rem;
+     }
+  }
+
+}
+
