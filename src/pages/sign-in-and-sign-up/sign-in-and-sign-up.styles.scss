@@ -1,7 +1,7 @@
 .sign-in-and-sign-up {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(10rem, 25rem));
   gap: 3rem;
-
+  justify-content: space-between;
   margin: 2rem 0;
 }
