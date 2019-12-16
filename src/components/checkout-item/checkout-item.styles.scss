@@ -22,4 +22,24 @@
   .price {
     width: 23%;
   }
+
+  .quantity {
+    .arrow-button {
+      cursor: pointer;
+      border: none;
+      background: none;
+      outline: none;
+      font-size: 1.3rem;
+      padding: 0 .5rem;
+
+      &.grey {
+        color: lightgrey;
+        cursor: default;
+      }
+    }
+  }
+
+  .remove-button {
+    cursor: pointer;
+  }
 }
