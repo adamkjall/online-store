@@ -10,3 +10,4 @@ Tools used to build this app:
  * Redux
  * Firebase
  * Stripe payments
+ * Styled Components
